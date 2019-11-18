@@ -1,0 +1,115 @@
+body{
+    background: -webkit-linear-gradient(top, rgba(226,224,255,1) 0%, rgba(114,52,247,1) 100%);
+    background-repeat: no-repeat;
+}
+
+.div1{
+    margin: 50px auto;
+    box-shadow: black 10px 10px 20px 1px;
+    height: 750px;
+    width: 575px;
+    position: relative;
+    background-color: rgb(215, 253, 247);
+
+    
+}
+.form-control{
+    position: absolute;
+    left: 10px;
+    width: 90%;
+    top: 3px;
+    transition: all 800ms;
+}
+.top{
+    background-color: lightblue;
+   
+   height: 50px;
+}
+.center{
+    margin-top: 25px;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+}
+input{
+    background-color: turquoise;
+}
+.end{
+    height: 50px;
+    position: absolute;
+    bottom: 10px;
+    left: 30%;
+}
+h2{
+    color: azure;
+}
+.text{
+    margin: 25px;
+    padding: 25px;
+    position: relative;
+    overflow: hidden;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    transition: all 500ms;
+    color: green;
+    font-weight: bold;
+    text-transform: capitalize;
+    position: relative;
+    text-decoration: unset;
+}
+li:hover span{
+
+    left: -20px;
+   transition: all 500ms;
+}
+
+h1{
+    margin: 50px auto;
+}
+span{
+    position: absolute;
+    left: -200px;
+    transition: all 500ms;
+    color: red;
+    transition-delay: 0.3s;
+}
+
+.fa-pencil-alt{
+    transition: all 500ms;
+    cursor: pointer;
+}
+.fa-pencil-alt:hover{
+    color: blue;
+    transform: rotate(-45deg);
+}
+.tipsArea{
+    position: absolute;
+    top: -2000px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    color: honeydew;
+    background-color: rgba(58, 54, 54, 0.596);
+    padding: 50px;
+    transition: all 600ms;
+}
+.tipsArea p{
+    margin: 50px auto;
+    width: 1000px;
+    text-align: center;
+    font-size: 64px;
+}
+.X{
+    position: absolute;
+    right: 44px;
+    top: 25px;
+    font-size: 64px;
+    transform: rotate(0deg);
+    cursor: pointer;
+    transition: all 400ms;
+}
+.X:hover{
+    transform: rotate(90deg);
+}

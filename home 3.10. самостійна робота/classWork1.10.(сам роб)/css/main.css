@@ -1,0 +1,146 @@
+/* body{
+    background-color: pink;
+}
+i{
+   text-align: center;
+   margin-left: 15px;
+}
+.menu{
+    margin-top: 50px;
+}
+ul{
+    width: 500px;
+    height: 48px;
+    transition: all 700ms;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    background-color: brown;
+    color: azure;
+    border: solid 1px azure;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 36px;
+    box-shadow: 0px 13px 20px 0px black;
+    
+}
+li{
+    
+    transition: all 700ms;
+    list-style: none;
+    text-transform: uppercase;
+    background-color: rgb(255, 119, 119);
+    color: azure;
+    border: solid 1px azure;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: inset 3px 3px 20px 6px black;
+}
+.visible{
+    display: block;
+    
+}
+h2{
+    background-color: rgb(141, 0, 0);
+    height: 45px;
+}
+.block_txt p{
+    border: solid 1px white;
+    padding: 25px;
+    font-size: 24px;
+    background-color: #fff;
+    
+    
+width: 850px;
+}
+.block_2{
+    position: relative;
+    top:50px;
+    left:550px;
+    display: none;
+}
+.block_txt{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    
+}
+.img_block{
+    position: absolute;
+}
+.img_block img{
+    width: 700px;
+    opacity: 0.2;
+    position: absolute;
+    top: -5px;
+    left: 0px;
+}
+.img_block{
+    width: 700px;
+    position: absolute;
+    top: -50px;
+    left: 100px;
+    z-index: 2;
+} */
+.text_block{
+    cursor: pointer;
+    position: relative;
+}
+
+p{
+    font-size: 14px;
+    padding: 25px;
+    margin-top: 25px;
+    
+}
+.p-style{
+    background-color: rgb(80, 92, 38);
+    color: white;
+    background-image: url(../img/quots.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+   
+
+}
+.img_block div{
+    border: solid 2px gray;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    padding-top: 10px;
+    
+}
+.img_block img{
+    cursor: pointer;
+    padding: 5px;
+}
+span{
+    cursor: pointer;
+    border: solid 1px lightblue;
+    width: 500px;
+    text-align: center;
+    background-color: rgb(163, 0, 0);
+}
+.textblok{
+    margin: 50px auto;
+    width: 1000px;
+    background-color: darkgrey;
+    line-height: 35px;
+    border: double 5px ;
+    color: lightblue;
+    
+}
+.lebed2{
+    float: left;
+    padding: 25px;
+}
+.row button{
+    width: 50px;
+    height: 30px;
+    
+}
+h2{
+    text-align: center;
+    padding: 5px;
+}

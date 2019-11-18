@@ -1,0 +1,88 @@
+body{
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.one{
+    font-size: 24px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 750px;
+    line-height: 45px;
+    padding: 25px;
+    border: double 5px rgb(0, 149, 175);
+    background-color: rgb(213, 255, 239);
+    transform: scale(1);
+    transition: all 300ms ease-out 0.1s;
+    margin-left: 0px;
+}
+.two{
+    font-size: 24px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: italic;
+    width: 1200px;
+    line-height: 45px;
+    padding: 25px;
+    border: dashed 15px rgb(107, 35, 107);
+    background-color: rgb(231, 195, 209);
+    transform: scale(1);
+    transition: all 300ms ease-out 0.1s;
+    margin-left: 0px;
+}
+.three{
+    
+        font-size: 24px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-style: italic;
+        font-weight: bolder;
+        width: 1150px;
+        line-height: 45px;
+        padding: 25px;
+        border: dashed 25px rgb(104, 103, 104);
+        border-top-right-radius: 8%;
+        border-bottom-right-radius: 8%;
+        background-color: rgb(209, 208, 208);
+        margin-left: 0px;
+        transform: scale(1);
+        transition: all 300ms ease-out 0.1s;
+        
+}
+.four{
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif;
+    width: 750px;
+    font-style: italic;
+    font-weight: 100;
+    color: aqua;
+    line-height: 35px;
+    padding: 25px;
+    border: outset 25px rgb(30, 2, 155);
+    border-top-right-radius: 2%;
+    border-top-left-radius: 4%;
+    border-bottom-right-radius: 4%;
+    border-bottom-left-radius: 2%;
+    background-color: rgb(71, 21, 189);
+    transition: all 300ms ease-out 0.1s;
+    transform: scale(1);
+    margin-left: 0px;
+}
+.five{
+    
+    opacity: 0;
+    transition: all 2s ease-out 0.1s;
+}
+.text_block{
+    height: 900px;
+    
+}
+.hide{
+    background:  -webkit-linear-gradient(top, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+    color: aliceblue;
+    
+}
+button{
+    box-shadow: 5px 5px 8px 0px black;
+    margin-left: 10px;
+}
+button:active{
+    box-shadow: inset 5px 5px 8px 0px black;
+}

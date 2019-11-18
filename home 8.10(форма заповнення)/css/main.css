@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(192, 204, 255);
+}
+
+p {
+    position: absolute;
+    color: red;
+    display: none;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+    border: 1px dashed #000;
+    background-color: rgb(214, 255, 198)
+}
+
+.top {
+    margin-top: 25px;
+    margin-left: 25px;
+    border-bottom: 2px dashed #000;
+}
+
+.row {
+    width: 1250px;
+}

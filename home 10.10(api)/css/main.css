@@ -1,0 +1,53 @@
+body {
+    background-image: url('../img/milky-way-galaxy-background-12.png');
+    background-repeat: no-repeat;
+
+}
+
+.top {
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: wheat;
+}
+
+h2 {
+    color: gold;
+    text-align: center;
+}
+
+.img_block img,
+.img_block {
+
+    margin-top: 100px;
+    height: 500px;
+}
+
+.img_block img {
+    border: solid 25px;
+}
+
+ul {
+    color: white;
+    width: 330px;
+    margin-top: 150px;
+    list-style-image: url('../img/Vader_archigraphs.png');
+    list-style-position: inside;
+    border: solid 2px grey;
+}
+
+.list {
+    position: absolute;
+    top: 50px;
+    right: -150px;
+}
+
+span {
+    margin-left: 85px;
+}
+button{
+    margin-left: 50px;
+    width: 150px;
+}

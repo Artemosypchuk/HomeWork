@@ -1,0 +1,61 @@
+body{
+    background-color: tomato;
+}
+.div1{
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+.div2{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+cursor: pointer;
+position: relative;
+
+}
+
+.div3{
+    width: 100px;
+    height: 100px;
+    background: white;
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+}
+.h1{
+    position: absolute;
+    top: -3px;
+    left: 0px;
+    align-self: center;
+}
+h1{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    width: 200px;
+    flex-flow: wrap;
+}
+.result{
+    display: none;
+    position: absolute;
+}
+.repit{
+    position: absolute;
+    
+    bottom: 85px;
+    display: none;
+}

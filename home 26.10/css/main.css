@@ -1,0 +1,46 @@
+
+.div1{
+    margin-top: 50px;
+    box-shadow: black 10px 10px 20px 1px;
+    height: 750px;
+    width: 575px;
+position: relative;
+
+
+    
+}
+.top{
+    background-color: lightblue;
+   
+   height: 50px;
+}
+.center{
+    margin-top: 25px;
+    height: 50px;
+}
+.end{
+    height: 50px;
+    position: absolute;
+    bottom: 10px;
+    left: 30%;
+}
+h2{
+    color: azure;
+}
+.text{
+    margin: 25px;
+    padding: 25px;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+li:hover{
+    list-style: none;
+   
+    
+}
+
+.fa-trash-alt{
+    display: none;
+}
